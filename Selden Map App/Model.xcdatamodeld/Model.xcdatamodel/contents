@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Ports" representedClassName="Ports" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xLocation" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yLocation" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ProvinceInformation" representedClassName="ProvinceInformation" syncable="YES">
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="provinceDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="aboutProvince" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Provinces" inverseName="information" inverseEntity="Provinces" syncable="YES"/>
+    </entity>
+    <entity name="Provinces" representedClassName="Provinces" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xLocation" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yLocation" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="information" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProvinceInformation" inverseName="aboutProvince" inverseEntity="ProvinceInformation" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ports" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Provinces" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="ProvinceInformation" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
