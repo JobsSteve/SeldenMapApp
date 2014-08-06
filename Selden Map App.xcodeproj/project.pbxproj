@@ -163,6 +163,8 @@
 		7AE6799F16B75C1D00F13AEC /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6799E16B75C1C00F13AEC /* LabelViewController.m */; };
 		7AE679A216B7611300F13AEC /* PopUpView.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE679A116B7611300F13AEC /* PopUpView.png */; };
 		7AFA429716AE1E5300A59E80 /* ModalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA429616AE1E5300A59E80 /* ModalPageViewController.m */; };
+		A943E46A1991FC7F004F53FD /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A943E4681991FC7F004F53FD /* Default-Portrait@2x~ipad.png */; };
+		A943E46B1991FC7F004F53FD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A943E4691991FC7F004F53FD /* Default-Portrait~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -304,8 +306,6 @@
 		489C55951717ACEE007C36BE /* kb-loupe-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-hi.png"; sourceTree = "<group>"; };
 		48A4E65C1757312D00ABF324 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchImage.png; path = Images/launchImage.png; sourceTree = "<group>"; };
 		48A4E65D1757312D00ABF324 /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchImage@2x.png"; path = "Images/launchImage@2x.png"; sourceTree = "<group>"; };
-		48A4E6601757315200ABF324 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
-		48A4E6621757315D00ABF324 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		48C0FFCF1741DEEE003B94F2 /* MapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScrollView.h; sourceTree = "<group>"; };
 		48C0FFD01741DEEE003B94F2 /* MapScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScrollView.m; sourceTree = "<group>"; };
 		48C6DD7217548D2F00163628 /* modalViewBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = modalViewBG.png; path = Images/modalViewBG.png; sourceTree = "<group>"; };
@@ -364,6 +364,8 @@
 		7AE679A116B7611300F13AEC /* PopUpView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopUpView.png; path = Images/PopUpView.png; sourceTree = "<group>"; };
 		7AFA429516AE1E5300A59E80 /* ModalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalPageViewController.h; sourceTree = "<group>"; };
 		7AFA429616AE1E5300A59E80 /* ModalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalPageViewController.m; sourceTree = "<group>"; };
+		A943E4681991FC7F004F53FD /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "Images/Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		A943E4691991FC7F004F53FD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "Images/Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,8 +387,6 @@
 		2750E76114CDB0DF007727A0 = {
 			isa = PBXGroup;
 			children = (
-				48A4E6621757315D00ABF324 /* Default-Portrait@2x~ipad.png */,
-				48A4E6601757315200ABF324 /* Default-Portrait~ipad.png */,
 				685532DD168381A40064740D /* Property List.plist */,
 				6857B989163DF223008DB574 /* CoreData.framework */,
 				2750E77614CDB0DF007727A0 /* Selden Map App */,
@@ -421,7 +421,7 @@
 				2750E77F14CDB0DF007727A0 /* AppDelegate.h */,
 				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
 				6857B980163DE462008DB574 /* Model.xcdatamodeld */,
-				3CF13844174AFD4C0018D86D /* Junk */,
+				3CF13844174AFD4C0018D86D /* Old View Controllers */,
 				68C6C8D31676C636001E8650 /* SlidingViewController */,
 				482E6F7C1728C33600D23F83 /* Timeline */,
 				681CB4F61673B09200296397 /* Buttons and Modals */,
@@ -469,6 +469,8 @@
 		2EB78960164D4CAC008F7DA1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A943E4681991FC7F004F53FD /* Default-Portrait@2x~ipad.png */,
+				A943E4691991FC7F004F53FD /* Default-Portrait~ipad.png */,
 				4850F5AA175A74F300E6C2FE /* tl_1_1.png */,
 				4850F5AB175A74F300E6C2FE /* tl_1_2.png */,
 				4850F5AC175A74F300E6C2FE /* tl_2_1.png */,
@@ -578,7 +580,7 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		3CF13844174AFD4C0018D86D /* Junk */ = {
+		3CF13844174AFD4C0018D86D /* Old View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				2E5FB790167A583A00B200C4 /* DrawerPreviewViewController.h */,
@@ -588,7 +590,7 @@
 				681CB5001673FC6300296397 /* SlidingViewController.h */,
 				681CB5011673FC6600296397 /* SlidingViewController.m */,
 			);
-			name = Junk;
+			name = "Old View Controllers";
 			sourceTree = "<group>";
 		};
 		482E6F7C1728C33600D23F83 /* Timeline */ = {
@@ -608,7 +610,7 @@
 			name = Timeline;
 			sourceTree = "<group>";
 		};
-		48555854172081FC00660410 /* Junk */ = {
+		48555854172081FC00660410 /* Old View Elements */ = {
 			isa = PBXGroup;
 			children = (
 				6872213C168BCD7C00DDEA9B /* InfoModalViewController.h */,
@@ -617,7 +619,7 @@
 				48555840171F747100660410 /* ModalViewWide.h */,
 				48555841171F747200660410 /* ModalViewWide.m */,
 			);
-			name = Junk;
+			name = "Old View Elements";
 			sourceTree = "<group>";
 		};
 		489C558D1717ACEE007C36BE /* MagnifyingGlass */ = {
@@ -664,7 +666,7 @@
 				3C88B1DD17498E9500B2840E /* RouteMarker.m */,
 				684510521642CED80004A06A /* Provinces */,
 				6857B98F163DF5DD008DB574 /* Ports */,
-				48555854172081FC00660410 /* Junk */,
+				48555854172081FC00660410 /* Old View Elements */,
 				2E7C24351671515600B621F8 /* InterfaceAnimatedButton.h */,
 				2E7C24361671515600B621F8 /* InterfaceAnimatedButton.m */,
 				485167DB174ECCB500ED22D8 /* ModalView_Vertical.h */,
@@ -843,6 +845,7 @@
 				481511381732894100BD53F7 /* route.png in Resources */,
 				481511391732894100BD53F7 /* route@2x.png in Resources */,
 				48F9A48F17340954004628E2 /* backbar@2x.png in Resources */,
+				A943E46B1991FC7F004F53FD /* Default-Portrait~ipad.png in Resources */,
 				48F9A49017340954004628E2 /* settings@2x.png in Resources */,
 				48F9A49117340954004628E2 /* backbar.png in Resources */,
 				48F9A49417340954004628E2 /* settings.png in Resources */,
@@ -869,6 +872,7 @@
 				48319B6617547CC100813D81 /* titlescreen@2x.png in Resources */,
 				48C6DD7317548D3000163628 /* modalViewBG.png in Resources */,
 				3CF1F62617554471000E26B0 /* trial_image_75.png in Resources */,
+				A943E46A1991FC7F004F53FD /* Default-Portrait@2x~ipad.png in Resources */,
 				3CF1F67B1755500A000E26B0 /* route_marker.png in Resources */,
 				3CF1F67C1755500A000E26B0 /* route_marker@2x.png in Resources */,
 				3CF1F67E17555BC9000E26B0 /* route_1.png in Resources */,
